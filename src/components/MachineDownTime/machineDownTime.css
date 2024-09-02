@@ -1,0 +1,36 @@
+.machine-down-time{
+    width: 750px;
+    height: 315px;
+    background-color: azure;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.machine-down-time-size{
+    width: 600px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .hour-based-production-size{
+    width: 700px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+/* .hour-based-production{
+    width: 765px;
+    height: 315px;
+    background-color: azure;
+    margin: 5px;
+} */

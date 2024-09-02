@@ -1,23 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import { NavBar } from './components/NavBar';
+import { ShiftDetails } from './components/ShiftDetails';
+import { RecipeDetails } from './components/RecipeDetails';
+import { AngleWidth } from './components/AngleWidth';
+import { MachineLossTime } from './components/MachineLossTime';
+import { HourBasedProduction } from './components/HourBasedProduction';
+import { MachineDownTime } from './components/MachineDownTime';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar />
+
+      <div className="check-length" >
+
+        <div className="first-half" >
+          <ShiftDetails />
+          <AngleWidth />
+          <RecipeDetails />
+          <MachineLossTime />
+        </div>
+
+        <div className='second-half' >
+          <HourBasedProduction />
+          <MachineDownTime/>
+        </div>
+
+      </div>
+
     </div>
   );
 }

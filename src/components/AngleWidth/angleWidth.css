@@ -1,0 +1,41 @@
+.angle-width {
+    background-color: rgb(241, 239, 213);
+    height: 315px;
+    width: 280.75px;
+    margin: 5px 2.5px;
+}
+
+#angle {
+    color: red;
+    font-weight: 700;
+}
+
+#width {
+    color: green;
+    font-weight: 700;
+}
+
+#cut {
+    font-weight: 700;
+}
+
+.angle-width th,
+td {
+    padding: 20px;
+    border: none;
+    text-align: center;
+}
+
+/* .angle-width{
+    background-color: white;
+    height: 315px;
+    width: 377px;
+    margin: 5px 2.5px;
+} */
+
+/* .RecipeDetails{
+    background-color: white;
+    height: 315px;
+    width: 272.75px;
+    margin: 5px 2.5px;
+} */
