@@ -1,18 +1,20 @@
 .shiftDetails {
     background-color: white;
-    height: 315px;
-    width: 471.25px;
+    height: 350px;
+    width: 600px;
     margin: 5px 2.5px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .upper-shiftDetails {
-    width: 471.25px;
+    width: 600px;
     height: 235.25px;
     background-color: aqua;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 
@@ -45,7 +47,7 @@
 }
 
 .lower-shiftDetails {
-    width: 471.25px;
+    width: 600px;
     height: 79.75px;
     background-color: aquamarine;
     display: flex;

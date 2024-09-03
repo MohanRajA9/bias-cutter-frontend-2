@@ -41,22 +41,22 @@ export const RecipeDetails = () => {
                 <header><h3>Recipe Details</h3></header>
             </div>
 
-            <div style={{ display: "flex", justifyContent: 'space-evenly', marginTop: '20px' }}>
-                <div>
+            <div style={{ display: "flex", justifyContent: 'space-evenly', marginTop: '15px' }}>
+                <div style={{display:"flex",flexDirection:"column",gap:"15px"}} >
                     <p><span style={{ fontWeight: 800, fontSize: "large" }} >RECIPE NAME    </span></p>
                     <p><span style={{ fontWeight: 800, fontSize: "large" }} >SAP NAME       </span></p>
                     <p><span style={{ fontWeight: 800, fontSize: "large" }} >FABRIC CODE    </span></p>
                     <p><span style={{ fontWeight: 800, fontSize: "large" }} >CUTTING WIDTH  </span></p>
                     <p><span style={{ fontWeight: 800, fontSize: "large" }} >CUTTING ANGLE  </span></p>
                 </div>
-                <div>
+                <div style={{  display: "flex", gap: "18px", flexDirection:"column"}} >
                     <p>:</p>
                     <p>:</p>
                     <p>:</p>
                     <p>:</p>
                     <p>:</p>
                 </div>
-                <div>
+                <div style={{  display: "flex", gap: "18px", flexDirection:"column"}} >
                     <p><span></span>{recipeDetails.recipeName}</p>
                     <p><span></span>{recipeDetails.SAPname}</p>
                     <p><span></span>{recipeDetails.fabricCode}</p>

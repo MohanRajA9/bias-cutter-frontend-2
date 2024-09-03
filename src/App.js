@@ -17,13 +17,13 @@ function App() {
         <div className="first-half" >
           <ShiftDetails />
           <AngleWidth />
-          <RecipeDetails />
-          <MachineLossTime />
+          <HourBasedProduction />
         </div>
 
         <div className='second-half' >
-          <HourBasedProduction />
-          <MachineDownTime/>
+          <RecipeDetails />
+          <MachineLossTime />
+          <MachineDownTime />
         </div>
 
       </div>
